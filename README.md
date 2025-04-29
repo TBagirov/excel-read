@@ -53,15 +53,15 @@
 
 Swagger UI доступен по адресу:
 
-http://localhost:8080/swagger-ui.html
+```http://localhost:8080/swagger-ui.html```
 
 ### 5. Пример запроса
 
-GET http://localhost:8080/api/nth-min?filePath=/Users/user/documents/numbers.xlsx&n=5
+```GET http://localhost:8080/api/nth-min?filePath=/Users/user/documents/numbers.xlsx&n=5```
 
 Ответ:
 
-42
+```42```
 (где 42 — 5‑е минимальное число в столбце)
 
 ## Обработка ошибок
@@ -93,4 +93,4 @@ GET http://localhost:8080/api/nth-min?filePath=/Users/user/documents/numbers.xls
 - Централизованная обработка ошибок через @ControllerAdvice.
 - Docker-контейнеризация проекта.
 
-# 🚀 Удачной работы с проектом!
+# Удачной работы с проектом!
